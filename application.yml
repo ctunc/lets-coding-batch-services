@@ -21,6 +21,9 @@ spring:
       config:
         allowOverride: true
         overrideSystemProperties: false
+  batch:
+    initialize-schema: always
+    tablePrefix: test.BATCH_
 
 management:
   endpoints:
