@@ -1,0 +1,12 @@
+letscoding:
+  datasource:
+    postgress:
+      url: jdbc:postgresql://localhost:5432/postgres
+      username: postgres
+      password: postgress
+      driverClassName: org.postgresql.Driver
+      repository-base-packages: "com.letscoding.batch.*"
+      entity-base-packages: "com.letscoding.batch.*"
+      server-name: localhost
+      port-number: 8052
+      database-name: postgress

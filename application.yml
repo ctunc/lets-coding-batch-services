@@ -1,0 +1,29 @@
+server:
+  servlet:
+    context-path: /api
+  connection-timeout: 60000
+  max-http-header-size: 16384
+
+
+spring:
+  profiles:
+    default: default
+    active: default
+    jpa:
+      show-sql: false
+      hibernate:
+        ddl-auto: validate
+    cloud:
+      task:
+        autoconfiguration:
+          enabled: true
+        closecontext-enabled: true
+      config:
+        allowOverride: true
+        overrideSystemProperties: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,refresh,bus-refresh,env,configprops,logfile,threaddump
