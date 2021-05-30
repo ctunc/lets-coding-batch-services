@@ -3,7 +3,7 @@ letscoding:
     postgress:
       url: jdbc:postgresql://localhost:5432/postgres
       username: postgres
-      password: postgress
+      password: benimSifrem
       driverClassName: org.postgresql.Driver
       repository-base-packages: "com.letscoding.*.entity.postgress"
       entity-base-packages: "com.letscoding.*.dbmodel.postgress"

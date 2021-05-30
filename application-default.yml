@@ -3,7 +3,7 @@ letscoding:
     postgress:
       url: jdbc:postgresql://localhost:5432/postgres
       username: postgres
-      password: postgress
+      password: benimSifrem
       driverClassName: org.postgresql.Driver
       server-name: localhost
       port-number: 8052
