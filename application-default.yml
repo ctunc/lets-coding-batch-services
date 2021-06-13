@@ -6,5 +6,5 @@ letscoding:
       password: benimSifrem
       driverClassName: org.postgresql.Driver
       server-name: localhost
-      port-number: 8052
+      port-number: 5432
       database-name: postgres
