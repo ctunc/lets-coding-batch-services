@@ -7,4 +7,4 @@ letscoding:
       driverClassName: org.postgresql.Driver
       server-name: localhost
       port-number: 8052
-      database-name: postgress
+      database-name: postgres
