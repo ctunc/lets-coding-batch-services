@@ -9,4 +9,4 @@ letscoding:
       entity-base-packages: "com.letscoding.*.dbmodel.postgress"
       server-name: localhost
       port-number: 5432
-      database-name: postgress
+      database-name: postgres
