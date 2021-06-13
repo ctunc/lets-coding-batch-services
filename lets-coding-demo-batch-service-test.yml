@@ -8,5 +8,5 @@ letscoding:
       repository-base-packages: "com.letscoding.*.entity.postgress"
       entity-base-packages: "com.letscoding.*.dbmodel.postgress"
       server-name: localhost
-      port-number: 8052
-      database-name: postgress
+      port-number: 5432
+      database-name: postgres
