@@ -5,7 +5,7 @@ letscoding:
       username: postgres
       password: benimSifrem
       driverClassName: org.postgresql.Driver
-      repository-base-packages: "com.letscoding.batch.demo.entity.postgress"
+      repository-base-packages: "com.letscoding.batch.demo.repository.postgress"
       entity-base-packages: "com.letscoding.batch.demo.dbmodel.postgress"
       server-name: localhost
       port-number: 5432
