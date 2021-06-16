@@ -1,7 +1,7 @@
 letscoding:
   datasource:
     postgress:
-      url: jdbc:mysql://localhost:3306/lets_coding
+      url: jdbc:mysql://localhost:3306/mysql
       username: root
       password: benimSifrem
       driverClassName: com.mysql.jdbc.Driver
