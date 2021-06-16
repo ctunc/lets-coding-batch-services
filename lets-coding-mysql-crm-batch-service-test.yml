@@ -1,0 +1,12 @@
+letscoding:
+  datasource:
+    postgress:
+      url: jdbc:mysql://localhost:3306/lets_coding
+      username: root
+      password: benimSifrem
+      driverClassName: com.mysql.jdbc.Driver
+      repository-base-packages: "com.letscoding.batch.mysqlcrm.repository.mysql"
+      entity-base-packages: "com.letscoding.batch.mysqlcrm.dbmodel.mysql"
+      server-name: localhost
+      port-number: 3306
+      database-name: lets_coding
