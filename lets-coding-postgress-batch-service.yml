@@ -2,4 +2,4 @@ spring:
   batch:
     job:
       enabled: true
-      names: postgressCronJob
+      names: postgressCrmJob
