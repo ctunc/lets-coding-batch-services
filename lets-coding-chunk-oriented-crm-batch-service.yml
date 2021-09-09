@@ -2,4 +2,3 @@ spring:
   batch:
     job:
       enabled: true
-      names: lets-coding-chunk-oriented-crm-batch-service
